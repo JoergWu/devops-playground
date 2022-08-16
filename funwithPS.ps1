@@ -24,4 +24,9 @@ $SpeechSynthesizer.Speak('Hallo, Welt!')
 
 #git status
 
-#git branch 
+#git branch (zeigt branch an bzw. wechselt)
+
+#git pull (zieht den aktuellen Branch runter)
+
+#git commit -m ":art: irgend eine commit message"
+#git push pumpt den aktuellen brunch hoch
