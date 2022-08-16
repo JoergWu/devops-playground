@@ -12,15 +12,16 @@
 # The Fun Part is here: https://www.scriptinglibrary.com/languages/powershell/powershell-text-to-speech/
 
 # Playing around with GIT below its good to know this cheat sheet: https://education.github.com/git-cheat-sheet-education.pdf
+# Git Commit Messages können mit GIT DEV Emojis besser gekennzeichnet werden: https://gitmoji.dev/
 
 
 Add-Type –AssemblyName System.Speech
 $SpeechSynthesizer = New-Object –TypeName System.Speech.Synthesis.SpeechSynthesizer
-$SpeechSynthesizer.Speak('Hello, World!')
+$SpeechSynthesizer.Speak('Hallo, Welt!')
 
 # Lets do some stuff in git below:
 # First let see the branch
 
-git status
+#git status
 
-
+#git branch 
