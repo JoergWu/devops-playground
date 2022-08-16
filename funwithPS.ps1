@@ -13,11 +13,13 @@
 
 # Playing around with GIT below its good to know this cheat sheet: https://education.github.com/git-cheat-sheet-education.pdf
 # Git Commit Messages können mit GIT DEV Emojis besser gekennzeichnet werden: https://gitmoji.dev/
+# Eine gute Übersicht kann hier gefunden werden: https://www.youtube.com/watch?v=USjZcfj8yxE
 
 
 Add-Type –AssemblyName System.Speech
 $SpeechSynthesizer = New-Object –TypeName System.Speech.Synthesis.SpeechSynthesizer
 $SpeechSynthesizer.Speak('Hallo, Welt!')
+$SpeechSynthesizer.Speak('Fujitsu ist cool!')
 
 # Lets do some stuff in git below:
 # First let see the branch
@@ -30,3 +32,4 @@ $SpeechSynthesizer.Speak('Hallo, Welt!')
 
 #git commit -m ":art: irgend eine commit message"
 #git push pumpt den aktuellen brunch hoch
+ 
