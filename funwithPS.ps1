@@ -11,7 +11,16 @@
 
 # The Fun Part is here: https://www.scriptinglibrary.com/languages/powershell/powershell-text-to-speech/
 
+# Playing around with GIT below its good to know this cheat sheet: https://education.github.com/git-cheat-sheet-education.pdf
+
+
 Add-Type –AssemblyName System.Speech
 $SpeechSynthesizer = New-Object –TypeName System.Speech.Synthesis.SpeechSynthesizer
 $SpeechSynthesizer.Speak('Hello, World!')
+
+# Lets do some stuff in git below:
+# First let see the branch
+
+git status
+
 
