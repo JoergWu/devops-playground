@@ -18,6 +18,7 @@
 Add-Type –AssemblyName System.Speech
 $SpeechSynthesizer = New-Object –TypeName System.Speech.Synthesis.SpeechSynthesizer
 $SpeechSynthesizer.Speak('Hallo, Welt!')
+$SpeechSynthesizer.Speak('Fujitsu ist cool!')
 
 # Lets do some stuff in git below:
 # First let see the branch
